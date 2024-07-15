@@ -66,7 +66,7 @@ runs:
         key: ${{runner.os}}-${{inputs.restore-cache-key}}-${{hashFiles('**/*.gradle.kt*')}}-${{hashFiles('**/libs.versions.toml')}}-${{hashFiles('**/gradle.properties')}}
         restore-keys: ${{runner.os}}-${{inputs.restore-cache-key}}
 
-    - uses: gradle/wrapper-validation-action@699bb18358f12c5b78b37bb0111d3a0e2276e0e2 # v2
+    - uses: gradle/wrapper-validation-action@f9c9c575b8b21b6485636a91ffecd10e558c62f6 # v3
 
     # Run the actual task.  Note that this still uses gradle-build-action for more fine-grained caching.
     - name: Run ${{ inputs.task }}
