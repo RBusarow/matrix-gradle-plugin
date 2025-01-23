@@ -4,7 +4,7 @@ kotlin = "1.9.22"
 google-ksp = "1.9.22-1.0.17"
 poko = "0.15.2"
 
-benManes-versions = "0.51.0"
+benManes-versions = "0.52.0"
 buildconfig = "5.3.5"
 commons-io = "2.15.1"
 dependencyAnalysis = "1.29.0"
